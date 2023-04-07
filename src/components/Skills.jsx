@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Skills.css";
 import { motion } from "framer-motion";
-// import { SkillsData } from "../data/SkillsData";
+import SkillsData from "../data/SkillsData";
 
 const Skills = () => {
 	const skillEffect = {
@@ -27,12 +27,17 @@ const Skills = () => {
 						whileInView={skillEffect}
 						className='skills-box'
 						initial={{ y: "-80px", opacity: 0 }}>
-						{/* {SkillsData.map((el, index) => (
-							<div className='skill-card' key={index}>
-								<div className='skill-icon'>{el.icon}</div>
-								<small className='skill-desc'>{el.name}</small>
-							</div>
-						))} */}
+							{
+								SkillsData.map((skill, index) => {
+									return (
+										<div className='skill' key={index}>
+											<img src={skill.img} alt={skill.alt} />
+											<p>{skill.name}</p>
+										</div>
+									)
+								})
+							}
+						
 					</motion.div>
 				</div>
 			</div>

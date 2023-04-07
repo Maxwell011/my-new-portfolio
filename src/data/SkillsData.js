@@ -12,21 +12,20 @@ import {
 import { DiJavascript1 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
 import {
-	// SiAdobephotoshop,
-	// SiTailwindcss,
-	// SiNextdotjs,
+	SiTailwindcss,
+	SiNextdotjs,
 	SiTypescript,
 	SiFirebase,
-	// SiStyledcomponents,
+	SiStyledcomponents,
 	SiFramer,
-	// SiMaterialui,
+	SiMaterialui,
 	SiRedux
 } from "react-icons/si";
 
 export const SkillsData = [
 	{
 		name: "HTML",
-		icon: <FaHtml5 />,
+		// icon: <FaHtml5 />,
 	},
 	{
 		name: "CSS",
@@ -64,22 +63,22 @@ export const SkillsData = [
 		name: "Bootstrap",
 		icon: <FaBootstrap />,
 	},
-	// {
-	// 	name: "Tailwind",
-	// 	icon: <SiTailwindcss />,
-	// },
-	// {
-	// 	name: "Material UI",
-	// 	icon: <SiMaterialui />,
-	// },
+	{
+		name: "Tailwind",
+		icon: <SiTailwindcss />,
+	},
+	{
+		name: "Material UI",
+		icon: <SiMaterialui />,
+	},
 	{
 		name: "Sass",
 		icon: <FaSass />,
 	},
-	// {
-	// 	name: "Styled Components",
-	// 	icon: <SiStyledcomponents />,
-	// },
+	{
+		name: "Styled Components",
+		icon: <SiStyledcomponents />,
+	},
 	{
 		name: "Framer Motion",
 		icon: <SiFramer />,
@@ -100,8 +99,6 @@ export const SkillsData = [
 		name: "Figma",
 		icon: <FaFigma />,
 	},
-	// {
-	// 	name: "Photoshop",
-	// 	icon: <SiAdobephotoshop />,
-	// },
 ];
+
+export default SkillsData;

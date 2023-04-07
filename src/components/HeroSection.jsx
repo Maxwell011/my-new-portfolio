@@ -99,17 +99,6 @@ const HeroSection = ({ nav, handleNav }) => {
 					I'm a <span className='hero-desc-sub'>Web Developer.</span>
 				</p>
 			</motion.div>
-			{/* <motion.span
-				variants={contactVariants}
-				initial='hidden'
-				whileInView='visible'>
-				<a
-					href='Peace Jinadu-Paul CV.pdf'
-					download='Peace Jinadu-Paul CV'
-					className='hero-contact'>
-					Download CV <BiDownload className='cv-icon' />
-				</a>
-			</motion.span> */}
 		</div>
 	);
 };

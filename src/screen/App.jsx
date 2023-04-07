@@ -35,7 +35,7 @@ function App() {
           animate='visible'
           className='text'
         >
-          Peace Jinadu-Paul
+          Orji Maxwell Chukwuemeka
         </motion.p>
       </div>
     </div>
