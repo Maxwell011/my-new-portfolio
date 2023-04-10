@@ -26,19 +26,19 @@ const Skills = () => {
 					<motion.div
 						whileInView={skillEffect}
 						className='skills-box'
-						initial={{ y: "-80px", opacity: 0 }}>
+						initial={{ y: "-80px", opacity: 0 }}> 
 							{
 								SkillsData.map((skill, index) => {
 									return (
 										<div className='skill' key={index}>
-											<img src={skill.img} alt={skill.alt} />
+											<img src={skill.icon} alt={skill.alt} />
 											<p>{skill.name}</p>
 										</div>
 									)
 								})
 							}
 						
-					</motion.div>
+				 </motion.div>
 				</div>
 			</div>
 		</>
