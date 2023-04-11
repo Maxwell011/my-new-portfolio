@@ -31,7 +31,7 @@ const Skills = () => {
 								SkillsData.map((skill, index) => {
 									return (
 										<div className='skill' key={index}>
-											<img src={skill.icon} alt={skill.alt} />
+											{/* <img src={skill.icon} alt={skill.alt} /> */}
 											<p>{skill.name}</p>
 										</div>
 									)
