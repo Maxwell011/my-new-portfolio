@@ -45,7 +45,7 @@ export const WorkData = [
     title: "A Budget App",
     desc: "This is a mobile web application designed to help users manage their budget effectively.",
     tech: ["Rails","PostgreSQL", "Bootstrap", "Ruby on Rails"],
-    gitlink: "",
+    gitlink: "//github.com/Maxwell011/Budget-app",
     site: "",
   },
 ];
