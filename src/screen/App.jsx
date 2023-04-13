@@ -3,6 +3,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import "../styles/App.css";
 import { motion } from "framer-motion";
 import HomePage from "../pages/HomePage";
+import FixedNav from "../components/fixed/FixedNav";
 
 function App() {
   // States
@@ -41,6 +42,7 @@ function App() {
     </div>
   ) : (
     <div className='App'>
+      <FixedNav />
       <Router>
         <HomePage />
       </Router>

@@ -66,6 +66,7 @@
 
 .nav-links li, .mid-details li {
     list-style: none;
+    font-weight: bold;
 }
 
 .nav-link {
@@ -120,6 +121,14 @@
     font-size: 1.5rem;
 }
 
+.mobile {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-links li, .mobile li {
+    list-style: none;
+}
 
 .copy {
     display: flex;

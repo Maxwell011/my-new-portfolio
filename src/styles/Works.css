@@ -14,6 +14,15 @@
 	width: 100%;
 }
 
+.our_works_figure {
+	width: 100%;
+}
+
+.our_works_figure_img {
+	object-fit: contain;
+	width: 100%;
+}
+
 .works-card {
 	background-color: var(--card-blue-shade);
 	color: var(--nav-grey);
@@ -23,9 +32,9 @@
 	width: 300px;
 	max-width: 300px;
 	margin: 0 auto;
-	height: 250px;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 	text-align: center;
 	cursor: pointer;

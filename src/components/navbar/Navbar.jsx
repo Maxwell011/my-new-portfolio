@@ -60,7 +60,7 @@ const Navbar = ({ nav, handleNav }) => {
 						</Link>
 						<NavLinks handleNav={handleNav} />
 					</div>
-					<ul className='mid-details'>
+					<ul className='mobile'>
 						<Link
 							activeClass='active'
 							spy={true}
