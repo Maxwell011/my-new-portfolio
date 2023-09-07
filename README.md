@@ -4,7 +4,7 @@
 
 
 ## Screenshots
-![Project Screenshot](./public/Porfolio-image.png)
+![Project Screenshot](./public/portfolio-1-image.png)
 ![Project Screenshot](./public/Portfolio-2-%20image.png)
 
 <!-- ## Key Features

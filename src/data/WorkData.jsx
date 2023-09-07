@@ -13,7 +13,7 @@ export const WorkData = [
     ],
     gitlink: "//www.github.com/Maxwell011/real_estate_app",
     site: "//https://real-estate-app-amber-tau.vercel.app/",
-    image: "Screenshot (78).png",
+    image: "Screenshot (76).png",
   },
   {
     title: "Chill Movies",
