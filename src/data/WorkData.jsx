@@ -12,7 +12,7 @@ export const WorkData = [
       "Context API",
     ],
     gitlink: "//www.github.com/Maxwell011/real_estate_app",
-    site: "//capstone-project-g48w4j4mo-maxwell011.vercel.app/",
+    site: "//https://real-estate-app-amber-tau.vercel.app/",
     image: "Screenshot (78).png",
   },
   {
