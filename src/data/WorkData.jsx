@@ -1,19 +1,19 @@
 
 export const WorkData = [
   {
-    title: "News vile",
-    desc: "This is an application that enables users to read the latest news from various topics and interests around the world. .",
+    title: "Realtor",
+    desc: "This is an application that helps you check out house you want to buy and rent and this contains homes images and all the features.",
     tech: [
       "React.js",
-      "Bootstrap",
-      "MaterialUI",
-      "APIs",
-      "Redux",
+      "Next.js",
+      "ChakaraUI",
+      "Rapid APIs",
+      "ReactIcons",
       "Context API",
     ],
-    gitlink: "//www.github.com/Maxwell011/capstone-project",
-    site: "//capstone-project-g48w4j4mo-maxwell011.vercel.app/",
-    image: "Screenshot1.png",
+    gitlink: "//www.github.com/Maxwell011/real_estate_app",
+    site: "//https://real-estate-app-amber-tau.vercel.app/",
+    image: "Screenshot (78).png",
   },
   {
     title: "Chill Movies",

@@ -12,9 +12,9 @@
 }
 
 .fixednav.scrolled {
-  /* background-color: #00021A; */
   background-color: black;
   color: black;
+  height: 70px;
 }
 
 .nav-links {
