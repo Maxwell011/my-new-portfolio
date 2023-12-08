@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FaHome, FaLaptop } from "react-icons/fa";
 import { FiUser } from "react-icons/fi";
-import { BiBookContent, BiServer, BiEnvelope } from "react-icons/bi";
+import { BiBookContent, BiEnvelope } from "react-icons/bi";
 import { Link } from "react-scroll";
 import "../../styles/FixedNav.css";
 
@@ -63,18 +63,6 @@ function FixedNav() {
           <FaLaptop className='mid-icon' />
           <li className='mid-link'>Skills</li>
         </Link>
-        {/* <Link
-          activeClass='active'
-          spy={true}
-          smooth={true}
-          offset={0}
-          duration={500}
-          to='services'
-          className='mid-links'
-        >
-          <BiServer className='mid-icon' />
-          <li className='mid-link'>Services</li>
-        </Link> */}
         <Link
           activeClass='active'
           spy={true}
@@ -87,7 +75,6 @@ function FixedNav() {
           <BiEnvelope className='mid-icon' />
           <li className='mid-link'>Contact</li>
         </Link>
-       
       </ul>
     </nav>
   );
