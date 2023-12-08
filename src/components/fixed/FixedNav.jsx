@@ -37,51 +37,7 @@ function FixedNav() {
           className='mid-links'
         >
           <FaHome className='mid-icon' />
-          <li className='mid-link'>
-            Home
-          </li>
-        </Link>
-        <Link
-          activeClass='active'
-          spy={true}
-          smooth={true}
-          offset={0}
-          duration={500}
-          to='about'
-          className='mid-links'
-        >
-          <FiUser className='mid-icon' />
-          <li className='mid-link'>
-            About
-          </li>
-        </Link>
-        <Link
-          activeClass='active'
-          spy={true}
-          smooth={true}
-          offset={0}
-          duration={500}
-          to='skills'
-          className='mid-links'
-        >
-          <FaLaptop className='mid-icon' />
-          <li className='mid-link'>
-            Skills
-          </li>
-        </Link>
-        <Link
-          activeClass='active'
-          spy={true}
-          smooth={true}
-          offset={0}
-          duration={500}
-          to='services'
-          className='mid-links'
-        >
-          <BiServer className='mid-icon' />
-          <li className='mid-link'>
-            Services
-          </li>
+          <li className='mid-link'>Home</li>
         </Link>
         <Link
           activeClass='active'
@@ -93,9 +49,31 @@ function FixedNav() {
           className='mid-links'
         >
           <BiBookContent className='mid-icon' />
-          <li className='mid-link'>
-            Works
-          </li>
+          <li className='mid-link'>Works</li>
+        </Link>
+        <Link
+          activeClass='active'
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+          to='skills'
+          className='mid-links'
+        >
+          <FaLaptop className='mid-icon' />
+          <li className='mid-link'>Skills</li>
+        </Link>
+        <Link
+          activeClass='active'
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+          to='services'
+          className='mid-links'
+        >
+          <BiServer className='mid-icon' />
+          <li className='mid-link'>Services</li>
         </Link>
         <Link
           activeClass='active'
@@ -107,10 +85,9 @@ function FixedNav() {
           className='mid-links'
         >
           <BiEnvelope className='mid-icon' />
-          <li className='mid-link'>
-            Contact
-          </li>
+          <li className='mid-link'>Contact</li>
         </Link>
+       
       </ul>
     </nav>
   );
