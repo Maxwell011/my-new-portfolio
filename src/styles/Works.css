@@ -111,11 +111,15 @@
 .bottom-work small {
   margin: 0 0.5rem;
   font-size: 60%;
-	height: 25px;
-  width: 64px;
-  background: pink;
-	border-radius: 10px;
-	
+  height: 25px;
+  width: 68px;
+  background: #149ddd;
+  color: #fff;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 
 /* Media Queries */
