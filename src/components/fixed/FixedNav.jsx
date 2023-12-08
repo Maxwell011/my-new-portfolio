@@ -63,7 +63,7 @@ function FixedNav() {
           <FaLaptop className='mid-icon' />
           <li className='mid-link'>Skills</li>
         </Link>
-        <Link
+        {/* <Link
           activeClass='active'
           spy={true}
           smooth={true}
@@ -74,7 +74,7 @@ function FixedNav() {
         >
           <BiServer className='mid-icon' />
           <li className='mid-link'>Services</li>
-        </Link>
+        </Link> */}
         <Link
           activeClass='active'
           spy={true}
