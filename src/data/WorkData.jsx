@@ -7,9 +7,9 @@ export const WorkData = [
       "React.js",
       "Next.js",
       "ChakaraUI",
-      "Rapid APIs",
+      "Rapid",
       "ReactIcons",
-      "Context API",
+      "API",
     ],
     gitlink: "//www.github.com/Maxwell011/real_estate_app",
     site: "//https://real-estate-app-amber-tau.vercel.app/",
@@ -26,7 +26,7 @@ export const WorkData = [
   {
     title: "Multicutural Music Summit",
     desc: "A website for a music festival that displays the artists and their music",
-    tech: ["React.js", "Axios", "APIs", "Material UI"],
+    tech: ["React.js", "Axios", "APIs", "MaterialUI"],
     gitlink: "//www.github.com/Maxwell011/Music-Conference",
     site: "//maxwell011.github.io/Music-Conference/",
     image: "Screenshot3.png",
@@ -42,7 +42,7 @@ export const WorkData = [
   {
     title: "Todo List App",
     desc: "A to-do list Web application that lets the user add, remove and reorder to do lists and checks a task when completed with a button to delete all completed task",
-    tech: ["Javascript", "Css", ""],
+    tech: ["Javascript", "Css", "Bootstrap"],
     gitlink: "//www.github.com/Maxwell011/To-Do-list",
     site: "//maxwell011.github.io/To-Do-list/dist/",
     image: "Screenshot5.png",
@@ -50,7 +50,7 @@ export const WorkData = [
   {
     title: "A Budget App",
     desc: "This is a mobile web application designed to help users manage their budget effectively.",
-    tech: ["Rails", "PostgreSQL", "Bootstrap", "Ruby on Rails"],
+    tech: ["Rails", "PostgreSQL", "Bootstrap", "Ruby"],
     gitlink: "//github.com/Maxwell011/Budget-app",
     site: "//budget-app-niq8.onrender.com/",
     image: "Screenshot6.png",
