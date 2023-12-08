@@ -1,16 +1,8 @@
-
 export const WorkData = [
   {
     title: "Realtor",
     desc: "This is an application that helps you check out house you want to buy and rent and this contains homes images and all the features.",
-    tech: [
-      "React.js",
-      "Next.js",
-      "ChakaraUI",
-      "Rapid",
-      "ReactIcons",
-      "API",
-    ],
+    tech: ["React.js", "Next.js", "ChakaraUI", "Rapid", "ReactIcons", "API"],
     gitlink: "//www.github.com/Maxwell011/real_estate_app",
     site: "//https://real-estate-app-amber-tau.vercel.app/",
     image: "Screenshot8.png",
@@ -41,7 +33,7 @@ export const WorkData = [
   },
   {
     title: "Todo List App",
-    desc: "A to-do list Web application that lets the user add, remove and reorder to do lists and checks a task when completed with a button to delete all completed task",
+    desc: "A to-do Web application that lets user add, remove and reorder To-do lists and checks a task when completed with a button click.",
     tech: ["Javascript", "Css", "Bootstrap"],
     gitlink: "//www.github.com/Maxwell011/To-Do-list",
     site: "//maxwell011.github.io/To-Do-list/dist/",
