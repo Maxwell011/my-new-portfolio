@@ -66,9 +66,9 @@ const Works = () => {
                           <p className='work-desc'>{w.desc}</p>
                         </div>
                         <div className='bottom-work'>
-                          {w.tech.map((e, index) => {
-                            return <small key={index}>{e}</small>;
-                          })}
+                            {w.tech.map((e, index) => {
+                              return <small key={index}>{e}</small>;
+                            })}
                         </div>
                       </div>
                     </div>
