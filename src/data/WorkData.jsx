@@ -16,7 +16,7 @@ export const WorkData = [
     image: "Screenshot2.png",
   },
   {
-    title: "Multicutural Music Summit",
+    title: "Multicultural Music Summit",
     desc: "A website for a music festival that displays the artists and their music",
     tech: ["React.js", "Axios", "APIs", "MaterialUI"],
     gitlink: "//www.github.com/Maxwell011/Music-Conference",
