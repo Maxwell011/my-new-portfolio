@@ -35,9 +35,9 @@ const Works = () => {
           >
             {WorkData.map((w, index) => {
               return (
-                <div key={index} className='background'>
+                <div key={index} className="background">
                   <Link to={w.site} target='_blank' className='work-link-group'>
-                    <div className='works-card'>
+                    <div className='works-card' >
                       <div className='works-container'>
                         <div className='top-work'>
                           <FiFolder className='work-folder' />
@@ -58,17 +58,17 @@ const Works = () => {
                             </Link>
                           </div>
                         </div>
-                        <figure className='our_works_figure'>
-                          <img className='our_works_figure_img' src={w.image} />
+                        <figure className="our_works_figure">
+                          <img className="our_works_figure_img" src={w.image} />
                         </figure>
                         <div className='mid-work'>
                           <p className='work-title'>{w.title}</p>
                           <p className='work-desc'>{w.desc}</p>
                         </div>
                         <div className='bottom-work'>
-                            {w.tech.map((e, index) => {
-                              return <small key={index}>{e}</small>;
-                            })}
+                          {w.tech.map((e, index) => {
+                            return <small key={index}>{e}</small>;
+                          })}
                         </div>
                       </div>
                     </div>
