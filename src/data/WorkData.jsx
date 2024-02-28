@@ -1,4 +1,3 @@
-
 export const WorkData = [
   {
     title: "17th Apartment",
@@ -7,6 +6,14 @@ export const WorkData = [
     gitlink: "//www.github.com/Maxwell011/real_estate_app",
     site: "//https://one7th-apartment.onrender.com/",
     image: "17th-apartment.png",
+  },
+  {
+    title: "Realtor",
+    desc: "This is an application that helps you check out house you want to buy and rent and this contains homes images and all the features.",
+    tech: ["React.js", "Next.js", "ChakaraUI", "Rapid"],
+    gitlink: "//www.github.com/Maxwell011/real_estate_app",
+    site: "//https://real-estate-app-amber-tau.vercel.app/",
+    image: "Screenshot8.png",
   },
   {
     title: "Chill Movies",
@@ -33,26 +40,11 @@ export const WorkData = [
     image: "Screenshot4.png",
   },
   {
-    title: "Realtor",
-    desc: "This is an application that helps you check out house you want to buy and rent and this contains homes images and all the features.",
-    tech: ["React.js", "Next.js", "ChakaraUI", "Rapid"],
-    gitlink: "//www.github.com/Maxwell011/real_estate_app",
-    site: "//https://real-estate-app-amber-tau.vercel.app/",
-    image: "Screenshot8.png",
-},
     title: "Todo List App",
     desc: "A to-do list Web application that lets the user add, remove and reorder to do lists and checks a task when completed with a button to delete all completed task",
     tech: ["Javascript", "Css", ""],
     gitlink: "//www.github.com/Maxwell011/To-Do-list",
     site: "//maxwell011.github.io/To-Do-list/dist/",
     image: "Screenshot5.png",
-  },
-  {
-    title: "A Budget App",
-    desc: "This is a mobile web application designed to help users manage their budget effectively.",
-    tech: ["Rails", "PostgreSQL", "Bootstrap", "Ruby on Rails"],
-    gitlink: "//github.com/Maxwell011/Budget-app",
-    site: "//budget-app-niq8.onrender.com/",
-    image: "Screenshot6.png",
   },
 ];
