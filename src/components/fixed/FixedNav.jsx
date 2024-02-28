@@ -26,90 +26,78 @@ function FixedNav() {
 
   return (
     <nav className={`fixednav ${scrolled ? "scrolled" : ""}`}>
-      <ul className='mid-details'>
+      <ul className="mid-details">
         <Link
-          activeClass='active'
+          activeClass="active"
           spy={true}
           smooth={true}
           offset={0}
           duration={500}
-          to='home'
-          className='mid-links'
+          to="home"
+          className="mid-links"
         >
-          <FaHome className='mid-icon' />
-          <li className='mid-link'>
-            Home
-          </li>
+          <FaHome className="mid-icon" />
+          <li className="mid-link">Home</li>
         </Link>
         <Link
-          activeClass='active'
+          activeClass="active"
           spy={true}
           smooth={true}
           offset={0}
           duration={500}
-          to='about'
-          className='mid-links'
+          to="works"
+          className="mid-links"
         >
-          <FiUser className='mid-icon' />
-          <li className='mid-link'>
-            About
-          </li>
+          <BiBookContent className="mid-icon" />
+          <li className="mid-link">Works</li>
         </Link>
         <Link
-          activeClass='active'
+          activeClass="active"
           spy={true}
           smooth={true}
           offset={0}
           duration={500}
-          to='skills'
-          className='mid-links'
+          to="skills"
+          className="mid-links"
         >
-          <FaLaptop className='mid-icon' />
-          <li className='mid-link'>
-            Skills
-          </li>
+          <FaLaptop className="mid-icon" />
+          <li className="mid-link">Skills</li>
         </Link>
         <Link
-          activeClass='active'
+          activeClass="active"
           spy={true}
           smooth={true}
           offset={0}
           duration={500}
-          to='services'
-          className='mid-links'
+          to="services"
+          className="mid-links"
         >
-          <BiServer className='mid-icon' />
-          <li className='mid-link'>
-            Services
-          </li>
+          <BiServer className="mid-icon" />
+          <li className="mid-link">Services</li>
         </Link>
         <Link
-          activeClass='active'
+          activeClass="active"
           spy={true}
           smooth={true}
           offset={0}
           duration={500}
-          to='works'
-          className='mid-links'
+          to="about"
+          className="mid-links"
         >
-          <BiBookContent className='mid-icon' />
-          <li className='mid-link'>
-            Works
-          </li>
+          <FiUser className="mid-icon" />
+          <li className="mid-link">About</li>
         </Link>
         <Link
-          activeClass='active'
+          activeClass="active"
           spy={true}
           smooth={true}
           offset={0}
           duration={500}
-          to='contact'
-          className='mid-links'
+          to="contact"
+          className="mid-links"
         >
-          <BiEnvelope className='mid-icon' />
-          <li className='mid-link'>
-            Contact
-          </li>
+          <BiEnvelope className="mid-icon" />
+          <li className="mid-link">Contact</li>
         </Link>
       </ul>
     </nav>

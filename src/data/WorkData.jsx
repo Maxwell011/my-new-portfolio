@@ -1,16 +1,16 @@
-
 export const WorkData = [
+  {
+    title: "17th Apartment",
+    desc: "This is an application that helps you Define your luxury, get the 17th feel of life!.",
+    tech: ["React.js", "Next.js", "TailwindCSS", "ReactIcons", "API"],
+    gitlink: "https://one7th-apartment.onrender.com/",
+    site: "https://one7th-apartment.onrender.com/",
+    image: "17th-apartment.png",
+  },
   {
     title: "Realtor",
     desc: "This is an application that helps you check out house you want to buy and rent and this contains homes images and all the features.",
-    tech: [
-      "React.js",
-      "Next.js",
-      "ChakaraUI",
-      "Rapid APIs",
-      "ReactIcons",
-      "Context API",
-    ],
+    tech: ["React.js", "Next.js", "ChakaraUI", "Rapid"],
     gitlink: "//www.github.com/Maxwell011/real_estate_app",
     site: "//https://real-estate-app-amber-tau.vercel.app/",
     image: "Screenshot8.png",
@@ -18,13 +18,13 @@ export const WorkData = [
   {
     title: "Chill Movies",
     desc: "A Movie website built with TVmaze API that displays movies and TV shows with comments and likes for interactions",
-    tech: ["Javascript", "Css", "APIs", "Redux", "WebPack"],
+    tech: ["Javascript", "Css", "APIs", "Redux"],
     gitlink: "//www.github.com/Maxwell011/Chill-Movies",
     site: "//maxwell011.github.io/Chill-Movies/dist/",
     image: "Screenshot2.png",
   },
   {
-    title: "Multicutural Music Summit",
+    title: "Multicultural Music Summit",
     desc: "A website for a music festival that displays the artists and their music",
     tech: ["React.js", "Axios", "APIs", "Material UI"],
     gitlink: "//www.github.com/Maxwell011/Music-Conference",
@@ -46,13 +46,5 @@ export const WorkData = [
     gitlink: "//www.github.com/Maxwell011/To-Do-list",
     site: "//maxwell011.github.io/To-Do-list/dist/",
     image: "Screenshot5.png",
-  },
-  {
-    title: "A Budget App",
-    desc: "This is a mobile web application designed to help users manage their budget effectively.",
-    tech: ["Rails", "PostgreSQL", "Bootstrap", "Ruby on Rails"],
-    gitlink: "//github.com/Maxwell011/Budget-app",
-    site: "//budget-app-niq8.onrender.com/",
-    image: "Screenshot6.png",
   },
 ];
