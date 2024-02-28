@@ -3,8 +3,8 @@ export const WorkData = [
     title: "17th Apartment",
     desc: "This is an application that helps you Define your luxury, get the 17th feel of life!.",
     tech: ["React.js", "Next.js", "TailwindCSS", "ReactIcons", "API"],
-    gitlink: "//www.github.com/Maxwell011/real_estate_app",
-    site: "//https://one7th-apartment.onrender.com/",
+    gitlink: "https://one7th-apartment.onrender.com/",
+    site: "https://one7th-apartment.onrender.com/",
     image: "17th-apartment.png",
   },
   {
