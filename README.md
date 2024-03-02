@@ -1,6 +1,6 @@
 # Portfolio - My Portfolio
 
-**My Portfolio** This a portfolio that shows my work and services that I offer.
+**My Portfolio** This a portfolio that shows my previous, current projects that I have built services that I off
 
 
 ## Screenshots
