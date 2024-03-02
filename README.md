@@ -9,14 +9,6 @@
 
 <!-- ## Key Features
 
-- **Home Listings:** Browse through a vast collection of homes available for sale and rent.
-- **Search and Filter:** Utilize powerful search and filtering options to find properties based on location, price range, amenities, and more.
-- **Property Details:** View detailed information about each property, including description, images, specifications, and contact information for the realtor or owner.
-- **Favorites:** Save properties to your favorites list for quick access and comparisons.
-- **User Accounts:** Sign up for an account to save preferences, receive personalized recommendations, and manage favorite properties.
-- **Map Integration:** Visualize property locations on an interactive map.
-- **Contact Realtor:** Easily get in touch with the listing realtor or property owner for inquiries and scheduling viewings. -->
-
 <br/>
 💻 Getting Started
 
@@ -32,7 +24,7 @@ In order to run this project you need:
 
 ## Installation
 
-To run the Porfolio app locally, follow these steps:
+To run the Portfolio app locally, follow these steps:
 
 1. Clone the repository:
 
@@ -76,7 +68,7 @@ To run the Porfolio app locally, follow these steps:
 
 ## Contributing
 
-Contributions to the Realtor project are welcome! If you'd like to contribute, please follow these steps:
+Contributions to the project are welcome! If you'd like to contribute, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
