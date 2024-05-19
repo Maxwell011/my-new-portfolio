@@ -54,7 +54,7 @@ To run the Portfolio app locally, follow these steps:
 
 ## Technologies Used
 
-- **Front-end:** HTML, CSS, JavaScript, React.js, Vite, Material UI, Font Awesome Icon, React Scroll 
+- **Front-end:** HTML, CSS, JavaScript, React.js, Vite
 
 <!-- -->
 
