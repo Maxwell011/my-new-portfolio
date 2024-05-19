@@ -56,7 +56,7 @@ To run the Portfolio app locally, follow these steps:
 
 - **Front-end:** HTML, CSS, JavaScript, React.js, Vite, Material UI, Font Awesome Icon, React Scroll 
 
-<!-- AUTHORS -->
+<!-- -->
 
 ## 👥 Authors <a name="authors"></a>
 
