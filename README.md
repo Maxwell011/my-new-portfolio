@@ -14,11 +14,6 @@
 
 ### Prerequisites
 
-
-## Installation
-
-To run the Portfolio app locally, follow these steps:
-
 1. Clone the repository:
 
     ```bash
