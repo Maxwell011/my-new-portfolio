@@ -15,10 +15,7 @@
 ### Prerequisites
 
 In order to run this project you need:
-- Visual Studio Code
-- Git
-- Next
-
+- V
 
 
 ## Installation
