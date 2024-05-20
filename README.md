@@ -14,9 +14,6 @@
 
 ### Prerequisites
 
-In order to run this project you need:
-- V
-
 
 ## Installation
 
