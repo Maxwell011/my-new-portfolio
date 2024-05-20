@@ -18,8 +18,7 @@ In order to run this project you need:
 - Visual Studio Code
 - Git
 - Next
-- React
-- Javascript
+
 
 
 ## Installation
