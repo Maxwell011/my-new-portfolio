@@ -45,9 +45,6 @@ To run the Portfolio app locally, follow these steps:
 
 5. Open your web browser and visit http://localhost:3000 to access the my-new-portfoli app.
 
-## Technologies Used
-
-- **Front-end:**
 
 <!-- -->
 
