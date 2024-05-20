@@ -7,7 +7,7 @@
 ![Project Screenshot](./public/portfolio-1-image.png)
 ![Project Screenshot](./public/Portfolio-2-%20image.png)
 
-<!-- ## Key Features
+<!-- ##
 
 <br/>
 💻 Getting Started
