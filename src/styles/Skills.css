@@ -30,6 +30,7 @@
     letter-spacing: 1px;
 }
 
+
 /* Media Queries */
 @media screen and (max-width: 1000px) {
     .skills-box {
