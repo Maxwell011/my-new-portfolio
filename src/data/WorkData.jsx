@@ -2,8 +2,8 @@ export const WorkData = [
   {
     title: "",
     desc: "",
-    tech: ["", "Next.js", "", "ReactIcons", ""],
-    gitlink: "https://one7th-apartment.onrender.com/",
+    tech: ["Nest","Next.js", "MongoDB", "MaterialIcons", ""],
+    gitlink: "",
     site: "",
     image: "",
   },
