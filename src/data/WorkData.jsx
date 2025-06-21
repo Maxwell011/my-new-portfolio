@@ -1,11 +1,11 @@
 export const WorkData = [
   {
     title: "",
-    desc: "17th Apartment is a modern website that redefines luxury living by showcasing premium apartments and providing an elevated lifestyle experience. The platform combines sleek design and functionality, offering users an immersive way to explore and connect with the luxurious 17th feel of life.",
-    tech: ["React.js", "Next.js", "TailwindCSS", "ReactIcons", "Flutterwave"],
+    desc: "",
+    tech: ["", "Next.js", "", "ReactIcons", ""],
     gitlink: "https://one7th-apartment.onrender.com/",
-    site: "https://one7th-apartment.onrender.com/",
-    image: "17th-apartment.png",
+    site: "",
+    image: "",
   },
   {
     title: "17th Apartment",
