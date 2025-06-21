@@ -1,6 +1,6 @@
 export const WorkData = [
   {
-    title: "",
+    title: "Arel Homes",
     desc: "",
     tech: ["Nest","Next.js", "MongoDB", "MaterialIcons", ""],
     gitlink: "",
