@@ -3,9 +3,9 @@ export const WorkData = [
     title: "Arel Homes",
     desc: "",
     tech: ["Nest","Next.js", "MongoDB", "MaterialIcons", ""],
-    gitlink: "",
-    site: "",
-    image: "",
+    gitlink: "https://arelhomesng.com/",
+    site: "https://arelhomesng.com/",
+    image: "Areil.png",
   },
   {
     title: "17th Apartment",
