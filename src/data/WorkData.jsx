@@ -1,8 +1,8 @@
 export const WorkData = [
   {
     title: "Arel Homes",
-    desc: "",
-    tech: ["Nest","Next.js", "MongoDB", "MaterialIcons", ""],
+    desc: "Arel Homes is a modern real estate website that showcases properties with a sleek design and user-friendly interface. It offers a seamless experience for users to explore listings,view property, book consultation all while providing a responsive design for both desktop and mobile users.",
+    tech: ["Nest","Next.js", "MongoDB", "MaterialUI", "MaterialIcons"],
     gitlink: "https://arelhomesng.com/",
     site: "https://arelhomesng.com/",
     image: "Areil.png",
