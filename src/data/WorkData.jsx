@@ -1,7 +1,7 @@
 export const WorkData = [
   {
     title: "Arel Homes",
-    desc: "Arel Homes is a modern real estate website that showcases properties with a sleek design and user-friendly interface. It offers a seamless experience for users to explore listings,view property, book consultation all while providing a responsive design for both desktop and mobile users.",
+    desc: "Arel Homes is a modern real estate website that showcases properties with a sleek design and user-friendly interface. It offers a seamless experience for users to explore listings,view property, book consultation all while providing a responsive design.",
     tech: ["Nest","Next.js", "MongoDB", "MaterialUI", "MaterialIcons"],
     gitlink: "https://arelhomesng.com/",
     site: "https://arelhomesng.com/",
@@ -25,7 +25,7 @@ export const WorkData = [
   },
   {
     title: "Realtor",
-    desc: "Realtor is a user-friendly real estate application that simplifies the process of finding your dream home. It provides detailed listings with high-quality images, essential features, and intuitive navigation for buying or renting properties, offering a seamless property search experience.",
+    desc: "Realtor is a user-friendly real estate site that simplifies the process of finding your dream home. Provides detailed listings with high-quality images and essential features.",
     tech: ["React.js", "Next.js", "Chakra UI", "Rapid", "MongoDB"],
     gitlink: "//www.github.com/Maxwell011/real_estate_app",
     site: "//https://real-estate-app-amber-tau.vercel.app/",
@@ -47,12 +47,12 @@ export const WorkData = [
     site: "//maxwell011.github.io/Music-Conference/",
     image: "Screenshot3.png",
   },
-  {
-    title: "Book Store App",
-    desc: "A modern book management app that lets users add their favorite books, track reading progress, and continue seamlessly from where they left off.",
-    tech: ["React.js", "Redux", "Javascript", "CSS"],
-    gitlink: "//www.github.com/Maxwell011/book-store",
-    site: "//book-store-b42ktopqk-maxwell011.vercel.app/",
-    image: "Screenshot4.png",
-  },
+  // {
+  //   title: "Book Store App",
+  //   desc: "A modern book management app that lets users add their favorite books, track reading progress, and continue seamlessly from where they left off.",
+  //   tech: ["React.js", "Redux", "Javascript", "CSS"],
+  //   gitlink: "//www.github.com/Maxwell011/book-store",
+  //   site: "//book-store-b42ktopqk-maxwell011.vercel.app/",
+  //   image: "Screenshot4.png",
+  // },
 ];
