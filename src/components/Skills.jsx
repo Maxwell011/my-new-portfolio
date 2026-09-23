@@ -29,10 +29,12 @@ const Skills = () => {
 						initial={{ y: "-80px", opacity: 0 }}> 
 							{
 								SkillsData.map((skill, index) => {
+									const Icon = skill.icon;
+
 									return (
-										<div className='skill' key={index}>
-											{/* <img src={skill.icon} alt={skill.alt} /> */}
-											<p>{skill.name}</p>
+										<div className='skill-card' key={index}>
+											<Icon className='skill-icon' aria-hidden='true' />
+											<p className='skill-desc'>{skill.name}</p>
 										</div>
 									)
 								})

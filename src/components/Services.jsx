@@ -1,7 +1,7 @@
 import React from 'react';
 import "../styles/Services.css"
-import {IoColorWandOutline} from "react-icons/io5"
 import {BiCodeAlt} from "react-icons/bi"
+import { FaServer } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const Services = () => {
@@ -24,13 +24,13 @@ const Services = () => {
                 <motion.div className="services-box" whileInView={fade} initial={{opacity: 0}}>
                     <div className="services-card">
                         <BiCodeAlt className='services-icon' />
-                        <p className='services-title'>Web Development</p>
-                        <p className='services-desc'>I use various web technologies to develop attractive,creative, interactive, responsive and functional website layouts. </p>
+                        <p className='services-title'>Frontend Development</p>
+                        <p className='services-desc'>I build responsive, accessible and interactive websites with React, Next.js, JavaScript, TypeScript and modern CSS.</p>
                     </div>
                     <div className="services-card">
-                        <IoColorWandOutline className='services-icon' />
-                        <p className='services-title'>UI Design</p>
-                        <p className='services-desc'>I work with certain design tools to create high-fidelity designs and prototypes. I design accessible and usable products which aid business growth.</p>
+                        <FaServer className='services-icon' />
+                        <p className='services-title'>Full Stack Development</p>
+                        <p className='services-desc'>I create complete web solutions with frontend interfaces, backend APIs, database integration and deployment-ready structure.</p>
                     </div>
                 </motion.div>
               </div>

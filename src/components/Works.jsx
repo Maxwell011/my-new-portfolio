@@ -16,7 +16,7 @@ const Works = () => {
 
   return (
     <>
-      <div className="works" id="works">
+      <div className="works" id="projects">
         <div className="container">
           <motion.div
             initial={{ opacity: 0 }}
@@ -25,7 +25,7 @@ const Works = () => {
             className="heading"
           >
             <p className="heading-sub-text">I build real value</p>
-            <p className="heading-text">Works</p>
+            <p className="heading-text">Projects</p>
           </motion.div>
 
           <motion.div

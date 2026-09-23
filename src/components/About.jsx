@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/About.css";
 import { motion } from "framer-motion";
-import ProfileImg from "../images/my-profile.jpg";
+import { BiCodeAlt } from "react-icons/bi";
 
 const About = () => {
   const horizontal = {
@@ -30,29 +30,31 @@ const About = () => {
               className="about-content"
             >
               <p>
-                Hello! My name is Maxwell and I enjoy creating things that live
-                on the internet. My interest in web development started back in
-                2018 when I decided to try out for my first school project —
-                turns out putting together a simple website taught me a lot
-                about HTML & CSS!{" "}
+                Hello! My name is Maxwell, and I build fast, responsive, and
+                user-friendly web experiences. My interest in web development
+                started in 2018 when I worked on my first school project and
+                discovered how much I enjoyed turning ideas into real websites.
               </p>
               <br />
               <p>
-                {" "}
-                I’ve had the privilege of working with some experienced
-                professionals which has enhanced my skills and rate of learning.
-                My main focus these days is building accessible, inclusive
-                products and digital experiences, as well as creating designs
-                and illustrations. With my experience I have what it takes to
-                solve real world problems
+                I focus on frontend development and full stack solutions using
+                modern tools like React, Next.js, JavaScript, TypeScript, Node.js,
+                and responsive CSS. I enjoy creating clean interfaces, connecting
+                them to reliable backend services, and building products that are
+                easy to use, maintain, and grow.
               </p>
             </motion.div>
             <motion.div
               initial={{ x: "50", opacity: 0 }}
               whileInView={horizontal}
-              className="about-img"
+              className="about-card"
             >
-              <img src={ProfileImg} alt="Profile" />
+              <BiCodeAlt className="about-card-icon" />
+              <p className="about-card-title">Frontend & Full Stack Developer</p>
+              <p className="about-card-text">
+                I turn ideas into polished websites, dashboards, and web apps
+                with thoughtful interfaces and practical backend integrations.
+              </p>
             </motion.div>
           </div>
         </div>
