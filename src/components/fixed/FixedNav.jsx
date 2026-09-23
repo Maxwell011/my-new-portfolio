@@ -45,11 +45,11 @@ function FixedNav() {
           smooth={true}
           offset={0}
           duration={500}
-          to="works"
+          to="projects"
           className="mid-links"
         >
           <BiBookContent className="mid-icon" />
-          <li className="mid-link">Works</li>
+          <li className="mid-link">Projects</li>
         </Link>
         <Link
           activeClass="active"

@@ -96,10 +96,10 @@ const HeroSection = ({ nav, handleNav }) => {
         className="hero-content"
       >
         <p className="hero-intro">
-          <span>Maxwell Chukwuemeka.</span>
+          <span>Maxwell Chukwuemeka</span>
         </p>
         <p className="hero-desc">
-          I'm a <span className="hero-desc-sub">Web Developer.</span>
+          I&apos;m a <span className="hero-desc-sub">Software Developer.</span>
         </p>
       </motion.div>
     </div>
