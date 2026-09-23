@@ -25,24 +25,43 @@
 }
 
 .hero-content {
-	font-family: "Lato", sans-serif;
+	font-family: "Plus Jakarta Sans", "Manrope", sans-serif;
 	margin-bottom: 2rem;
 	width: fit-content;
+	position: relative;
+	z-index: 1;
 }
 
 .hero-intro {
-	font-size: 4rem;
-	margin-bottom: 0.5rem;
+	font-size: clamp(2.8rem, 5vw, 5.5rem);
+	margin-bottom: 0.6rem;
 	color: var(--nav-blue);
 	display: flex;
 	flex-direction: column;
+	text-shadow: 0 0 24px rgba(92, 179, 255, 0.38);
+	line-height: 0.96;
+	letter-spacing: -0.06em;
+	font-weight: 800;
 }
 
 .hero-desc,
 .hero-desc-sub {
-	font-size: 1.2rem;
-	font-family: "Poppins", sans-serif;
-	font-weight: 100;
+	font-size: clamp(1rem, 2vw, 1.5rem);
+	font-family: "Manrope", sans-serif;
+	font-weight: 400;
+}
+
+.hero-desc-sub {
+	display: inline-block;
+	color: var(--nav-blue);
+	font-weight: 700;
+	border-right: 2px solid var(--nav-blue);
+	white-space: nowrap;
+	overflow: hidden;
+	animation: typing 2.6s steps(22, end), blink 0.7s step-end infinite;
+	max-width: 22ch;
+	vertical-align: bottom;
+	letter-spacing: -0.02em;
 }
 
 .hero-contact {
@@ -160,9 +179,24 @@
 	}
 }
 
+@keyframes typing {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
+
+@keyframes blink {
+	50% {
+		border-color: transparent;
+	}
+}
+
 @media screen and (max-width: 650px) {
 	.hero-intro {
-		font-size: 5rem;
+		font-size: clamp(2.5rem, 12vw, 4rem);
 	}
 }
 
@@ -173,12 +207,16 @@
 	}
 
 	.hero-intro {
-		font-size: 3rem;
+		font-size: clamp(2.4rem, 11vw, 3.5rem);
 	}
 
 	.hero-desc,
 	.hero-desc-sub {
-		font-size: 1rem;
+		font-size: 0.95rem;
+	}
+
+	.hero-desc-sub {
+		max-width: 18ch;
 	}
 
 	.hero-contact {

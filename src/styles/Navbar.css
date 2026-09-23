@@ -39,13 +39,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.profile-pic-small {
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
     margin-bottom: 1rem;
+    border-radius: 50%;
     border: 5px solid var(--nav-deep-blue);
+    background: rgba(20, 157, 221, 0.12);
+}
+
+.profile-icon {
+    color: var(--nav-blue);
+    font-size: 2.8rem;
 }
 
 .profile-name {
