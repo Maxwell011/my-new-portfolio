@@ -6,8 +6,8 @@
 }
 
 .skill-card {
-    padding: 1rem;
-    width: 80%;
+    padding: 1.2rem 1rem;
+    width: 100%;
     margin: 0 auto;
     /* border: 1px solid var(--nav-blue); */
     color: var(--nav-blue);
@@ -18,16 +18,28 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    min-height: 110px;
+    transition: all 0.4s ease;
+}
+
+.skill-card:hover {
+    color: var(--soft-white);
+    transform: translateY(-4px);
 }
 
 .skill-icon {
-    font-size: 2rem;
-    margin-bottom: .5rem;
+    display: block;
+    width: 2.4rem;
+    height: 2.4rem;
+    color: var(--nav-blue);
+    margin-bottom: .7rem;
+    flex-shrink: 0;
 }
 
 .skill-desc {
-    font-size: 1.3rem;
-    letter-spacing: 1px;
+    color: var(--soft-white);
+    font-size: 1rem;
+    letter-spacing: 0;
 }
 
 
@@ -51,23 +63,22 @@
     
     .skill-desc {
         font-size: 1rem;
-        letter-spacing: 1px;
-        font-size: 1rem;
     }
 }
 
 @media screen and (max-width: 550px) {
     .skill-card {
-        width: 70%;
+        width: 100%;
         margin: 0 auto;
-        padding: 0;
+        padding: .8rem .4rem;
+        min-height: 88px;
     }
 
     .skill-icon {
-        font-size: 1rem;
+        font-size: 1.6rem;
     }
     
     .skill-desc {
-        font-size: .5rem;
+        font-size: .75rem;
     }
 }
