@@ -1,8 +1,9 @@
 import {
   FaBootstrap,
   FaCss3Alt,
-  FaGithub,
+  FaGitAlt,
   FaHtml5,
+  FaNodeJs,
   FaNpm,
   FaReact,
   FaSass,
@@ -16,73 +17,87 @@ import {
   SiTypescript,
   SiStyledcomponents,
   SiFramer,
+  SiExpress,
+  SiMongodb,
   SiRedux,
 } from "react-icons/si";
 
 export const SkillsData = [
   {
     name: "HTML",
-    icon: <FaHtml5 />,
+    icon: FaHtml5,
   },
   {
     name: "CSS",
-    icon: <FaCss3Alt />,
+    icon: FaCss3Alt,
   },
   {
     name: "Javascript",
-    icon: <DiJavascript1 />,
+    icon: DiJavascript1,
   },
   {
     name: "TypeScript",
-    icon: <SiTypescript />,
+    icon: SiTypescript,
   },
   {
     name: "React Js",
-    icon: <FaReact />,
+    icon: FaReact,
   },
   {
     name: "Next Js",
-    icon: <SiNextdotjs />,
+    icon: SiNextdotjs,
   },
   {
     name: "Redux",
-    icon: <SiRedux />,
+    icon: SiRedux,
+  },
+  {
+    name: "Node Js",
+    icon: FaNodeJs,
+  },
+  {
+    name: "Express Js",
+    icon: SiExpress,
+  },
+  {
+    name: "MongoDB",
+    icon: SiMongodb,
   },
   {
     name: "JSON",
-    icon: <VscJson />,
+    icon: VscJson,
   },
   {
     name: "Bootstrap",
-    icon: <FaBootstrap />,
+    icon: FaBootstrap,
   },
   {
     name: "Tailwind",
-    icon: <SiTailwindcss />,
+    icon: SiTailwindcss,
   },
   {
     name: "Sass",
-    icon: <FaSass />,
+    icon: FaSass,
   },
   {
     name: "Styled Components",
-    icon: <SiStyledcomponents />,
+    icon: SiStyledcomponents,
   },
   {
     name: "Framer Motion",
-    icon: <SiFramer />,
+    icon: SiFramer,
   },
   {
     name: "Git",
-    icon: <FaGithub />,
+    icon: FaGitAlt,
   },
   {
     name: "Npm",
-    icon: <FaNpm />,
+    icon: FaNpm,
   },
   {
     name: "Yarn",
-    icon: <FaYarn />,
+    icon: FaYarn,
   },
 ];
 
